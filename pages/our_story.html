@@ -60,23 +60,19 @@
 				  <li class="has-children">
                      <input type="checkbox" name="group-2" id="group-2">
                      <label for="group-2"><a href="our_story.html">Our Story</a></label>
-                  </li>
-				  <li class="has-children">
-                     <input type="checkbox" name="group-2" id="group-2">
-                     <label for="group-2"><a href="#">Who We Are</a></label>
                   </li> 
                   <li class="has-children">
                      <input type="checkbox" name ="group-1" id="group-1">
                      <label for="group-1">Our Services</label>
                      <ul>
-                        <li><a href="#">Concepts, UI &amp; UX</a></li>
-                        <li><a href="#">Web &amp; Mobile Applications</a></li>
-                        <li><a href="#">Software Solutions</a></li>
-                        <li><a href="#">Managed Services</a></li>
-                        <li><a href="#">Cyber Security</a></li>
-                        <li><a href="#">2D Animation</a></li>
-                        <li><a href="#">e-Learning</a></li>
-                        <li><a href="#">Education</a></li>
+                        <li><a href="uiux.html">Concepts, UI &amp; UX</a></li>
+                        <li><a href="web_mobile.html">Web &amp; Mobile Applications</a></li>
+                        <li><a href="soft_sol.html">Software Solutions</a></li>
+                        <li><a href="manage_serv.html">Managed Services</a></li>
+                        <li><a href="cyber_sec.html">Cyber Security</a></li>
+                        <li><a href="2d_anim.html">2D Animation</a></li>
+                        <li><a href="elearn.html">e-Learning</a></li>
+                        <li><a href="education.html">Education</a></li>
                      </ul>
                   </li>
 				  <li class="has-children">
@@ -179,7 +175,7 @@
             <div class="container">
                <div class="five columns">
                   <div class="left-footer">
-                     <p>2021 © 5THDT. All rights reserved.</p>
+                     <p><span id="year"></span> © 5THDT. All rights reserved.</p>
                   </div>
                </div>
                <div class="two columns">
@@ -217,7 +213,16 @@
       <script type="text/javascript" src="../assets/js/jquery.fs.tipper.min.js"></script> 	
       <script type="text/javascript" src="../assets/js/zoom.js"></script>
       <script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
-      <script type="text/javascript" src="../assets/js/custom-about.js"></script>    
+      <script type="text/javascript" src="../assets/js/custom-about.js"></script>
+	  <script src="https://kit.fontawesome.com/3b1776a051.js" crossorigin="anonymous"></script> 
+	  <script src="https://unpkg.com/feather-icons"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	  <script type="text/javascript">
+		  feather.replace();
+	  </script>
+	  <script type="text/javascript">
+		  document.getElementById("year").innerHTML = new Date().getFullYear();
+	  </script> 
       <!-- End Document
          ================================================== -->
    </body>

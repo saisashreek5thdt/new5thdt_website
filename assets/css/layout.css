@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 @import url("colors/color.css");
+
 body.royal_preloader {
 	background: none;
 	visibility: hidden;
@@ -1398,6 +1401,7 @@ a.curent-nav-color {
 	height: 20px;
 	margin: 0 auto;
 	fill: currentColor;
+
 }
 
 .first-port-box {
@@ -1653,7 +1657,7 @@ a.curent-nav-color {
 }
 
 .about-text p {
-	text-align: center;	
+	text-align: center;
 }
 
 .about-mission {
@@ -4458,6 +4462,17 @@ p.justify {
 	font-size: 12px;
 	line-height: 20px;
 	color: #f4f4f4;
+	letter-spacing: 1px;
+}
+
+.right-footer p a,
+.right-footer p a:hover {
+	display: block;
+	float: right;
+	text-align: right !important;
+	font-size: 12px;
+	line-height: 20px;
+	color: #f4f4f4 !important;
 	letter-spacing: 1px;
 }
 
